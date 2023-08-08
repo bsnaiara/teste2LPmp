@@ -1,0 +1,118 @@
+@font-face {
+  font-family: FloraniaTrial;
+  src: url(FloraniaTrial.otf);
+}
+@font-face {
+  font-family: Century;
+  src: url(DOMINIKTH.TTF);
+}
+@font-face {
+  font-family: Sherland;
+  src: url(Sherland.ttf);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background-color: #B48482 ;
+
+  justify-content: auto;
+
+ 
+}
+.conteudo-principal{
+  background-color: #FFF;
+  min-width:250px;
+  max-width: 800px;
+  max-height: 850px;
+  min-height: 400px;
+  margin: auto;
+  float: left;
+  padding: 50px;
+}
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.title-section1{
+  margin-top: 100px;
+  font-family: FloraniaTrial;
+ color:#B48482;
+ font-size: 50px;
+ text-align: center;
+}
+.subtitle-section1{
+  font-family: Century;
+    font-size: 24px;
+    color: #B48482;
+    text-align: center;
+  }
+  .btn-section1{
+    background-color: #B48482;
+    margin-left: 25%;
+    margin-bottom: 25%;
+    width: 50%;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: Century;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFF;
+}
+
+
+
+.btn:hover{
+  color: rgba(236, 214, 196, 0.53); 
+  transition-duration: 0.5s;
+}
+
+.btn{
+  font-family: Century;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #B48482;
+  border: none;
+  border-radius: 10px;
+  width:100%;
+  height: 170%;
+}
+
+.cabeçalho{
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-color: #A8A6A2;
+  border-width: 8px;
+  padding: 10px;
+  
+}
+.cabecalho-menu {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.cab-menu-item {
+  font-family: Century;
+  color: #B48482;
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
+  margin: auto;
+}
+.submarca{
+  width: 100%;
+}
+
